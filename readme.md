@@ -1,0 +1,1 @@
+This project brings the entire tabnews platform to the Playstation 2
