@@ -54,9 +54,7 @@ function loadPost(postIndex) {
     loadedPostContent.title = post.title
     loadedPostContent.slug = post.slug
 
-    if (loadedPostContent.content == undefined || loadedPostContent.content == null) {
-        loadedPostContent.content = JSON.parse(getPostContent(loadedPostContent.ownerUsername, loadedPostContent.slug)).body
-    }
+    loadedPostContent.content = JSON.parse(getPostContent(loadedPostContent.ownerUsername, loadedPostContent.slug)).body
 }
 
 function updateCurrentPost() {
